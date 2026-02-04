@@ -13,7 +13,7 @@ I made this because i kinda kept forgetting how to install fonts on linux after 
 
 ## Installation
 
-### Quick Install (Recommended)
+### Step by step Install (Recommended)
 
 1. **Download the script**
    ```bash
