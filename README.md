@@ -13,6 +13,21 @@ I made this because i kinda kept forgetting how to install fonts on linux after 
 
 ## Installation
 
+### Quick Install (One Command)
+
+**For Bash users:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/y-jar/fanta-jar/main/fnta.sh -o ~/.local/bin/fnta && mkdir -p ~/.local/bin && chmod +x ~/.local/bin/fnta && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
+```
+
+**For Zsh users:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/y-jar/fanta-jar/main/fnta.sh -o ~/.local/bin/fnta && mkdir -p ~/.local/bin && chmod +x ~/.local/bin/fnta && echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+```
+
+> **Note:** This command downloads the script, makes it executable, and adds it to your PATH. For **Zsh** users, replace `~/.bashrc` with `~/.zshrc`.
+
+
 ### Step by step Install (Recommended)
 
 1. **Download the script**
