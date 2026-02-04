@@ -27,7 +27,7 @@ I made this because i kinda kept forgetting how to install fonts on linux after 
 
 3. **Move and rename the script**
    ```bash
-   mv install-fonts.sh ~/.local/bin/fnta
+   mv fnta.sh ~/.local/bin/fnta
    ```
 
 4. **Make it executable**
@@ -60,7 +60,7 @@ I made this because i kinda kept forgetting how to install fonts on linux after 
 If you want all users on your system to access `fnta`:
 
 ```bash
-sudo cp install-fonts.sh /usr/local/bin/fnta
+sudo cp fnta.sh /usr/local/bin/fnta
 sudo chmod +x /usr/local/bin/fnta
 ```
 
