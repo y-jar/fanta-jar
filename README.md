@@ -25,7 +25,7 @@ I made this because i kinda kept forgetting how to install fonts on linux after 
    mkdir -p ~/.local/bin
    ```
 
-3. **Move and rename the script**
+3. **Move the script**
    ```bash
    mv fnta.sh ~/.local/bin/fnta
    ```
